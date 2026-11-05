@@ -1,53 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Versionamnto e Publicação SmartCoffee</title>
+    <title>Versionamento e Publicação SmartCoffee</title>
 </head>
 <body>
-    <h1>Versionamnto e Publicação SmartCoffee</h1>
-    <p>Bem-vindo à página do SmartCoffee</p>
-    <h2>Revisão de Versionamnto</h2>
-    <p>É um sistema de versões</p>
-    <p>Git - é um sistema controle de versões</p>
-    <p>GitHub - Plataforma de hospedagem de repositórios</p>
-    <h2>Analogia</h2>
-    <p>Git</p>
-    <p>Sistema de Save</p>
-    <p>Commit</p>
-    <p>Ponto salvo</p>
-    <p>GitHub</p>
-    <p>Cópia do histórico em um servidor remoto</p>
+    <main>
+        <h1>Versionamento e Publicação SmartCoffee</h1>
+        <p>Bem-vindo à página do SmartCoffee</p>
 
-    <h3>Comandos Git</h3>
-    <p>git init - Esse comando cria o repositório Git Local</p>
-    <p>git status - Checar status do repositório</p>
-    <p>git add - Irá adicionar esse arquivo em processo de envio</p>
-    <p>git commit - Representar a confirmação do processo ou seja, enviar.</p>
-    <p>git log - Mostrar o log ou registro das evoluções feitas no repositório</p>
-    <p>git branch - Branches - representa uma linha de desenvolvimento</p>
+        <section>
+            <h2>Revisão de versionamento</h2>
+            <p>É um sistema de versões.</p>
+            <p>Git é um sistema de controle de versões.</p>
+            <p>GitHub é uma plataforma de hospedagem de repositórios.</p>
 
-    <h2>Criando repositório</h2>
-    <p>Preciso do meu repositório criado no github para dar início as configurações de publicação do projeto.</p>
-    <p>Por que não criar o README.md?</p>
-    <p>Por que nosso projeto já possui um histórico. Manter o remoto vazio simplifica a conexão e evita históricos diferentes.</p>
+            <h3>Analogia</h3>
+            <ul>
+                <li>Git: sistema de save.</li>
+                <li>Commit: ponto salvo.</li>
+                <li>GitHub: cópia do histórico em um servidor remoto.</li>
+            </ul>
+        </section> 
 
-    <p>git remote add origin - adicionar o repositório remoto</p>
-    <p>git remote -v - visualizar conexão remote git</p>
+        <section>
+            <h2>Comandos Git</h2>
+            <ul>
+                <li> git init : cria o repositório Git local.</li>
+                <li> git status : verifica o status do repositório.</li>
+                <li> git add : adiciona arquivos para o próximo commit.</li>
+                <li> git commit : confirma as alterações.</li>
+                <li> git log : mostra o histórico de alterações.</li>
+                <li> git branch : gerencia linhas de desenvolvimento.</li>
+            </ul>
+        </section>
 
-    <h2>O que é Origin?</h2>
-    <p>É um nome convencional dado ao repositório remoto</p>
-    <p>git push - envia a branch main, usa o remoto origin e configura o acompanhamento entre branch local e remote</p>
-    <p>git push = Serão ações futuras</p>
-    <p>git pull - Quando possuimos alterações que ainda não estão no seu computador</p>
+        <section>
+            <h2>Criando um repositório</h2>
+            <p>Preciso criar meu repositório no GitHub para iniciar as configurações de publicação do projeto.</p>
+            <p>Por que não criar o README.md?</p>
+            <p>Como nosso projeto já possui um histórico, manter o repositório remoto vazio simplifica a conexão e evita históricos diferentes.</p>
 
-    <h2>Fluxo completo diariamente</h2>
-    <p>git pull - Início dos trabalhos</p>
-    <p>git status - Edição do projeto</p>
-    <p>git add . - Edição do projeto</p>
-    <p>git commit -m "Edição do projeto"</p>
-    <p>git push - Edição do projeto</p>
+            <h3>Configurando o repositório remoto</h3>
+            <ul>
+                <li> git remote add origin : adiciona o repositório remoto.</li>
+                <li> git remote -v : visualiza a conexão com o repositório remoto.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>O que é origin?</h2>
+            <p> origin  é um nome convencional dado ao repositório remoto.</p>
+            <p> git push envia a branch main usando o remoto origin e configura o acompanhamento entre as branches local e remota.</p>
+            <p>Os próximos envios podem ser feitos com git push .</p>
+            <p> git pull  obtém alterações que ainda não estão no seu computador.</p>
+        </section>
+
+        <section>
+            <h2>Fluxo completo diário</h2>
+            <ol>
+                <li> git pull : início dos trabalhos.</li>
+                <li>Edite o projeto e confira as alterações com git status .</li>
+                <li>Prepare as alterações com git add . .</li>
+                <li>Registre as alterações com git commit -m "Edição do projeto" .</li>
+                <li>Envie as alterações com git push .</li>
+            </ol>
+        </section>
+    </main>
 </body>
 </html>
